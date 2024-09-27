@@ -1,2 +1,2 @@
-# Node_js_Testing_and_Code_Quality
+# Node js Testing and Code Quality
 Following a LinkedIn Learning Course from Jon Peck
