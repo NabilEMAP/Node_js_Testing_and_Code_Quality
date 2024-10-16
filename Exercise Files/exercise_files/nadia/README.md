@@ -27,6 +27,10 @@ The server persists using a SQLite3 database named `database.sqlite` in the site
 
 This project uses https://www.npmjs.com/package/debug for development logging. To start `nodemon` and enable logging:
 
+This project uses ESLint to detect suspicious code in JavaScript files. Visit https://eslint.org for details and make sure to check [Fixing code in VSC with ESLint](https://www.linkedin.com/learning/node-js-testing-and-code-quality-14003857/fixing-code-in-vsc-with-eslint) how you can fix your errors.
+
+
+
 ```bash
 npm run debug
 ```
