@@ -11,3 +11,9 @@ module.exports = {
     "prefer-const": "error"
   }
 };
+
+/*
+module.exports = {
+  "extends": "nadia"
+};
+*/
