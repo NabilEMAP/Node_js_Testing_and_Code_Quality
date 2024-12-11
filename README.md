@@ -26,7 +26,15 @@ The server persists using a SQLite3 database named `database.sqlite` in the site
 
 ## Development
 
-This project uses EditorConfig to standardize text editor configurations. Visit http://editorconfig.org/ for details.
+This project uses EditorConfig to standardize text editor configurations. Visit https://editorconfig.org/ for details.
+
+This project uses ESLint to detect suspicious code in JavaScript files. Visit https://eslint.org/ for details.
+
+### Testing
+
+This project uses Jest for testing. Visit https://jestjs.io for details.
+
+To execute tests: `npm test`
 
 ### Debugging
 
