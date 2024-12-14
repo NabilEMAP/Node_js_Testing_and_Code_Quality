@@ -5,6 +5,7 @@ const mockMorgan = jest.fn((req, res, next) => next());
 const mockInsert = jest.fn().mockResolvedValue([1349]);
 
 beforeAll(() => {
+  jest.mock('./', () => require('./reservations'));
   jest.mock('morgan', () => () => mockMorgan);
   jest.mock('../lib/knex', () => () => ({
     insert: mockInsert,
@@ -13,6 +14,7 @@ beforeAll(() => {
 });
 
 afterAll(() => {
+  jest.unmock('./');
   jest.unmock('morgan');
 });
 
